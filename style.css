@@ -1,0 +1,33 @@
+html {
+  box-sizing: border-box;
+}
+
+
+body {
+  font-family: 'Open Sans', Times sans-serif;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  padding: 0px;
+}
+
+header {
+  background-color: #ccd9ff;
+}
+
+nav {
+  background-color: #ccccff;
+}
+
+main {
+  background-color: #e6ecff;
+  flex-grow: 1;
+  padding: 20px;
+}
+
+footer {
+  background-color: #0040ff
+}
